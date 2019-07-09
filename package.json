@@ -1,0 +1,42 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "Server with REST API for the Sentiment_analysis project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules http-server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Bluella/node_server.git"
+  },
+  "author": "Bluella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Bluella/node_server/issues"
+  },
+  "homepage": "https://gitlab.com/Bluella/node_server#readme",
+  "engines": {
+    "node": "11.3.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.4",
+    "moment": "^2.23.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "os": "^0.1.1",
+    "promise": "^8.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.15.3"
+  }
+}
